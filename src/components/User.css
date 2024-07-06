@@ -1,0 +1,41 @@
+/* User.css */
+
+.user__card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user__card img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user__card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .user__card p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .user__card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user__card button:hover {
+    background-color: #0056b3;
+  }
+  
